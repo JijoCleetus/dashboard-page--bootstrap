@@ -87,7 +87,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 240px);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 32px;
   position: relative;
   z-index: 1;
